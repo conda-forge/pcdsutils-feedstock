@@ -1,5 +1,5 @@
 {% set name = "pcdsutils" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 885932ebde4b09da5200849a0d225d32d522b45bbb070f463db9cb7e77daf647
+  sha256: 9407eb3d59af7a7d05a83c5327a3143e2eca440bda1720f89defd2390831f36a
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - requirements-from-conda = pcdsutils.requirements:_requirements_from_conda
     - requirements-compare = pcdsutils.requirements:_compare_requirements
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/pcdshub/pcdsutils
-  summary: 'SLAC National Accelerator Laboratory Photon Controls PCDS Python Utilities'
+  summary: SLAC National Accelerator Laboratory Photon Controls PCDS Python Utilities
   license: SLAC Open
   license_family: OTHER
   license_file: LICENSE.txt
