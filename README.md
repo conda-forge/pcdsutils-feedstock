@@ -5,7 +5,7 @@ Home: https://github.com/pcdshub/pcdsutils
 
 Package license: SLAC Open
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: SLAC National Accelerator Laboratory Photon Controls PCDS Python Utilities
 
