@@ -23,9 +23,12 @@ requirements:
     - pip
   run:
     - python >=3.6
+    - pypandoc
     - pyqt >=5
+    - pyyaml
     - qtpy
     - qtpyinheritance
+    - requests
 
 test:
   imports:
