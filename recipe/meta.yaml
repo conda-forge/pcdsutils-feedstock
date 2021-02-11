@@ -41,8 +41,8 @@ test:
 about:
   home: https://github.com/pcdshub/pcdsutils
   summary: SLAC National Accelerator Laboratory Photon Controls PCDS Python Utilities
-  license: SLAC Open
-  license_family: OTHER
+  license: LicenseRef-BSD-3-Clause-SLAC
+  license_family: BSD
   license_file: LICENSE.txt
 
 extra:
