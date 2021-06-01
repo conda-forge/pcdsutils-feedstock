@@ -10,7 +10,7 @@ source:
   sha256: cfb19f838fd920358e203cca6524bebecbfa4c8286e38be5b55f60987a3d641d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -48,5 +48,5 @@ about:
 extra:
   recipe-maintainers:
     - klauer
-    - hhslepicka
     - zllentz
+    - zrylettc
