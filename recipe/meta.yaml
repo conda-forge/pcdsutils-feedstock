@@ -10,7 +10,7 @@ source:
   sha256: b35eb07c330ff6c4cacdd77ce3f9cdc56f03c99e335e869b9f7b41ac14643414
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -19,10 +19,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - pypandoc
     - pyqt >=5
     - pyyaml
