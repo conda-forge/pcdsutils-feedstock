@@ -1,5 +1,5 @@
 {% set name = "pcdsutils" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 4d64a60dbb875c5ec23bf0c4bfede3fe3b1ab6e88c97c471c8fa53f3b971dc4a
+  sha256: b35eb07c330ff6c4cacdd77ce3f9cdc56f03c99e335e869b9f7b41ac14643414
 
 build:
   number: 0
