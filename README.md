@@ -1,11 +1,11 @@
-About pcdsutils
-===============
+About pcdsutils-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pcdsutils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pcdshub/pcdsutils
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pcdsutils-feedstock/blob/main/LICENSE.txt)
 
 Summary: SLAC National Accelerator Laboratory Photon Controls PCDS Python Utilities
 
@@ -143,7 +143,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/pcdsdevices](https://github.com/conda-forge/pcdsdevices/)
 * [@klauer](https://github.com/klauer/)
+* [@tangkong](https://github.com/tangkong/)
 * [@zllentz](https://github.com/zllentz/)
-* [@zrylettc](https://github.com/zrylettc/)
 
