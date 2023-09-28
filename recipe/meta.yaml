@@ -24,10 +24,9 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.9
+    - prettytable
     - pypandoc
-    - pyqt >=5
     - pyyaml
-    - qtpy
     - qtpyinheritance
     - requests
 
