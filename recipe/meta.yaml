@@ -1,5 +1,5 @@
 {% set name = "pcdsutils" %}
-{% set version = "0.12.2" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: b8e5eb63bdf0391b86f55e5223c3b0a51cabcb6b25386176605303d41729db3b
+  sha256: b949a73d83919f5c213fcb7fc9ffa7f54c95d63376d61d7aebd57922fddb6c48
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.9
+    - prettytable
     - pypandoc
     - pyqt >=5
     - pyyaml
