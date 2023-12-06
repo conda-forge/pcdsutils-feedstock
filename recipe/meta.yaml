@@ -26,17 +26,18 @@ requirements:
     - python >=3.9
     - prettytable
     - pypandoc
-    - pyqt >=5
     - pyyaml
-    - qtpy
     - qtpyinheritance
     - requests
+  run_constrained:
+    - pyqt =5
 
 test:
   imports:
     - pcdsutils
     - pcdsutils.qt
   requires:
+    - qtpy
     - pytest
     - pytest-qt
 
