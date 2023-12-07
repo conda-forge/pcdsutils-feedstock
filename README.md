@@ -144,7 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@conda-forge/pcdsdevices](https://github.com/conda-forge/pcdsdevices/)
-* [@klauer](https://github.com/klauer/)
-* [@tangkong](https://github.com/tangkong/)
-* [@zllentz](https://github.com/zllentz/)
 
