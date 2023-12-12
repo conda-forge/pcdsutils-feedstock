@@ -10,7 +10,7 @@ source:
   sha256: 9b4067a461436f3b456064a65e50ab507f6319541869728cc708d789cc78b206
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -27,6 +27,7 @@ requirements:
     - prettytable
     - pypandoc
     - pyyaml
+    - qtpyinheritance
     - requests
 
 test:
@@ -36,7 +37,6 @@ test:
   requires:
     - pyqt =5
     - qtpy
-    - qtpyinheritance
     - pytest
     - pytest-qt
 
