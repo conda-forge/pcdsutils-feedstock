@@ -10,7 +10,7 @@ source:
   sha256: 9b4067a461436f3b456064a65e50ab507f6319541869728cc708d789cc78b206
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -19,11 +19,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - prettytable
     - pypandoc
     - pyyaml
@@ -39,6 +39,7 @@ test:
     - qtpy
     - pytest
     - pytest-qt
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pcdshub/pcdsutils
