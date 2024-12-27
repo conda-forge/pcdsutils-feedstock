@@ -1,5 +1,6 @@
 {% set name = "pcdsutils" %}
 {% set version = "0.14.1" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -21,6 +22,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
     - setuptools_scm
   run:
     - python >={{ python_min }}
