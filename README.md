@@ -143,5 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/pcdsdevices](https://github.com/conda-forge/pcdsdevices/)
+* [@conda-forge/pcdsdevices](https://github.com/orgs/conda-forge/teams/pcdsdevices/)
 
